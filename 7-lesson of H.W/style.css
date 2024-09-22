@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: #EFA45F;
+    padding: 82px 181px 51px 105px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.avatar {
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.name{
+    color: #7C501B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30.625px;
+    font-weight: 700;
+}
+
+.job{
+    color: #7C501B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22.5px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.follow{
+    display: block;
+    width: 190px;
+    height: 62px;
+    border-radius: 70px;
+    background-color: white;
+    color: #7C501B;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.follow:hover{
+    color: #fff;
+    background-color: #7C501B;
+    transition: 0.5s;
+}
+.box{
+    width: 220px;
+    height: 160px;
+    background: #FCEAD0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 11px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.num{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58.295px;
+    font-weight: 300;
+}
+.text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33.047px;
+    font-weight: 300;
+}
